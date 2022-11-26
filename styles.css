@@ -30,16 +30,18 @@ body{
 /*inputs*/
 input{
   margin-top: 1rem;
-  height: 3rem;
-  width: 20rem;
+  height: 5rem;
+  width: 25rem;
   border-radius: .5rem;
   border-color: var(--primary-color);
-  font-size: 20px;
+  font-size: 30px;
+  margin: 0.5rem 1rem 2rem 1rem;
 }
 label{
   padding-right: 1rem;
   font-stretch: ultra-expanded;
   font-size: 1.5rem;
+  margin-top: 2rem;
 }
 button{
   margin-top: 1rem;
@@ -49,7 +51,6 @@ button{
   color: white;
   border-color: var(--primary-color);
 }
-
 
 /*error message*/
 #error-message {
@@ -67,7 +68,7 @@ table{
     font-size: large;
 }
 table caption{
-  margin: 2rem 0 1rem 0;
+  margin: 1rem 0 1rem 0;
   font-size: 1.5rem;
 }
 th,
