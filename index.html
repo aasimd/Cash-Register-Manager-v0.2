@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <h1 class="heading">
+        Cash Register
+    </h1>
+    <div>
+        <p class="description">
+        Enter the bill amount and cash given by the customer and know minimum number of notes to return.
+        </p>
+    </div>
+    
+    <div class="center-container">
+        <label for="bill-amount">Bill Amount:</label>
+        <input type="number" id="bill-amount">
+        <p>
+        <label for="cash-given">Cash Given:</label>
+        <input type="number" id="cash-given">
+        <div>
+            <button id="check-button">Check</button>
+        </div>
+
+        <h4 id="error-message"></h4>
+
+        <table class="table-design">
+            <caption>Return Change:</caption>
+            <tr>
+                <th class="notes">No. of notes</th>
+                <td class="no-of-notes notes"></td>
+                <td class="no-of-notes notes"></td>
+                <td class="no-of-notes notes"></td>
+                <td class="no-of-notes notes"></td> 
+                <td class="no-of-notes notes"></td>
+                <td class="no-of-notes notes"></td>
+                <td class="no-of-notes notes"></td>
+                <td class="no-of-notes notes"></td>
+                <td class="no-of-notes notes"></td>
+            </tr>
+            <tr>
+                <th class="notes">Note</th>
+                <td class="notes">2000</td>
+                <td class="notes">500</td>
+                <td class="notes">200</td>
+                <td class="notes">100</td>
+                <td class="notes">50</td>
+                <td class="notes">20</td>
+                <td class="notes">10</td>
+                <td class="notes">5</td>
+                <td class="notes">1</td>
+            </tr>
+        </table>
+
+    </div>
+    <footer>
+        <div class="contact-info">
+            <h5 class="connect">
+            Connect with me here
+            </h5>
+            <li class="non-bullet">
+            <a target="_blank" href="https://linkedin.com/in/aasim-dongarkar-28b365231"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li class="non-bullet">
+            <a href="https://twitter.com/dthree01"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li class="non-bullet">
+            <a href="https://github.com/aasimd"><i class="fa-brands fa-github"></i></a>
+            </li>
+        </div>
+        </li>
+        <p class="credit">
+        project by Aasim  2022©️
+        </p>
+    </footer>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
