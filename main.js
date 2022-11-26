@@ -34,6 +34,7 @@ function returnChange(amountToReturn){
 }
 
 function error (msg){
+    errorMessage.style.display="block";
     errorMessage.innerText = msg;
 }
 function hideMessage (){
