@@ -12,7 +12,7 @@ function clickHandler(){
     if (billAmountNum>0){
         var cashGivenNum = Number(cashGiven.value)
         var amountToReturn = Number(cashGivenNum - billAmountNum);
-        if (amountToReturn > 0){ 
+        if (amountToReturn >= 0){ 
             hideMessage ()
             console.log(amountToReturn, 'amount to return');
             returnChange(amountToReturn);
