@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,600&display=swap');
 :root{
   --primary-color:#06b6d4;
+  --secondary-color:#cffafe;
 }
 body{
   font-family: 'Poppins',
@@ -117,4 +118,8 @@ p.credit{
 a:-webkit-any-link {
   color: inherit;
   cursor: pointer;
+}
+
+.bg{
+  background-color: var(--secondary-color);
 }
