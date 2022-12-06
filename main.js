@@ -9,8 +9,20 @@ var enterCashGivenAmount = document.querySelector("#visible-level-1");
 var returnTable = document.querySelector("#visible-level-2");
 
 function nextClickHandler (){
-    enterCashGivenAmount.style.display="block";
-    nextButton.style.display="none";
+    var billAmountNum = Number(billAmount.value)
+    if(billAmountNum){
+        if (billAmountNum>0){
+            hideMessage ()
+            enterCashGivenAmount.style.display="block";
+            nextButton.style.display="none";
+        }
+        else {
+            error ("❌ invalid bill amount ")
+        }
+    }
+    else {
+        error ("please enter a bill amount")
+    }
 }
 function clickHandler(){
     var billAmountNum = Number(billAmount.value)
